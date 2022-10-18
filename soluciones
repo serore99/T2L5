@@ -3,3 +3,4 @@
 3. ls -a /etc/ | grep ^t| cat -n| sort -rn | awk '{print $2}'
 4. ls -a /dev/ | grep ^tty..$
 5. ls -a /dev/ | grep ^tty.*[1-4]$
+6. ls -a /dev/ | grep ^t.*C1$
