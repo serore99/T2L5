@@ -6,3 +6,4 @@
 6. ls -a /dev/ | grep ^t.*C1$
 7. ls -a ../../
 8. ls -a /etc/ | grep -v ^t
+9. ls -R /usr/
