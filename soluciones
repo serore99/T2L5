@@ -1,2 +1,2 @@
-1. ls -a ../../bin
-2. ls -a ../../tmp
+1. ls -l /bin
+2. ls -l /tmp
