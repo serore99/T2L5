@@ -1,0 +1,10 @@
+1. cat el_quijote.txt | grep -oi quijote| wc -w
+2. cat el_quijote.txt | grep -vic quijote
+3. grep -iscr quijote
+4. grep -iscr quijote | grep -v :0$
+5. cat el_quijote.txt | sed 's/panza/barriga/g'
+6. cat el_quijote.txt | sed 's/panza/barriga/gi'
+7. head -c 4 el_quijote.txt
+8. head -c 4000 el_quijote.txt 
+9. tail -n+14 el_quijote.txt | head -n12
+10. sort -fr el_quijote.txt 
