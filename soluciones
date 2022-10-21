@@ -1,1 +1,9 @@
-
+1. ls -l /bin
+2. ls -l /tmp
+3. ls -a /etc/ | grep ^t| cat -n| sort -rn | awk '{print $2}'
+4. ls -a /dev/ | grep ^tty..$
+5. ls -a /dev/ | grep ^tty.*[1-4]$
+6. ls -a /dev/ | grep ^t.*C1$
+7. ls -a ../../
+8. ls -a /etc/ | grep -v ^t
+9. ls -R /usr/
