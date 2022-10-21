@@ -5,3 +5,4 @@
 14. pwd
 15. ls -li
 16. mkdir PRUEBA
+17. mkdir -p dir1/dir11 dir2 dir3/dir31/dir311 dir3/dir31/dir312
