@@ -8,3 +8,4 @@
 17. mkdir -p dir1/dir11 dir2 dir3/dir31/dir311 dir3/dir31/dir312
 18. cp ../../../etc/hostname mensaje
 19. cp mensaje dir1 | cp mensaje dir2 | cp mensaje dir3
+20. ls -R
