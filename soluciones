@@ -6,4 +6,26 @@
 6. ls -a /dev/ | grep ^t.*C1$
 7. ls -a ../../
 8. ls -a /etc/ | grep -v ^t
-9. ls -R /usr/
+9. ls -R /usr/10. cd /tmp/
+10. cd /tmp/
+11. pwd
+12. date
+13. cd ../../
+14. pwd
+15. ls -li
+16. mkdir PRUEBA
+17. mkdir -p dir1/dir11 dir2 dir3/dir31/dir311 dir3/dir31/dir312
+    mkdir -p PRUEBA/{dir1/dir11,dir2,dir3/dir31{dir311,dir312}}
+18. cp ../../../etc/hostname mensaje
+19. cp mensaje dir1 | cp mensaje dir2 | cp mensaje dir3
+20. ls -R1. cat el_quijote.txt | grep -oi quijote| wc -w
+1. cat el_quijote.txt | grep -oi quijote| wc -w
+2. cat el_quijote.txt | grep -vic quijote
+3. grep -iscr quijote
+4. grep -iscr quijote | grep -v :0$
+5. cat el_quijote.txt | sed 's/panza/barriga/g'
+6. cat el_quijote.txt | sed 's/panza/barriga/gi'
+7. head -c 4 el_quijote.txt
+8. head -c 4000 el_quijote.txt 
+9. tail -n+14 el_quijote.txt | head -n12
+10. sort -fr el_quijote.txt 
