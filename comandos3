@@ -4,3 +4,4 @@
 4. grep -iscr quijote | grep -v :0$
 5. cat el_quijote.txt | sed 's/panza/barriga/g'
 6. cat el_quijote.txt | sed 's/panza/barriga/gi'
+7. head -c 4 el_quijote.txt
